@@ -192,10 +192,11 @@ nav.navbar.fixed-to-top{
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 2em;
+	font-size: 20px;
+	margin-top: 10px
 /*	text-align: left;
-*/	padding: 0px;
-	margin: 0px;
+*/	/*padding: 0px;
+	margin: 0px;*/
 }
 
 
