@@ -188,6 +188,19 @@ nav.navbar.fixed-to-top{
 	font-size: 2em;
 }
 
+.navbar-default .navbar-brand-mobile{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 2em;
+/*	text-align: left;
+*/	padding: 0px;
+	margin: 0px;
+}
+
+
+	
+	
 /* ================================
 Home sections
 ================================= */
@@ -944,10 +957,4 @@ a.heading{
 		font-size: 20px;	
 	}
 
-	.style_logo{
-/*	text-align: left;
-*/	padding: 0px;
-	margin: 0px;
-	font-size: 10px;
-  line-height: 0.8;
-  }
+	
