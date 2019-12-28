@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Ohm Shree Corporation</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- css -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800" rel="stylesheet" media="screen">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/style.css" rel="stylesheet" media="screen">
+  <link href="color/default.css" rel="stylesheet" media="screen">
+</head>
+<style>
+	a.heading{
+		font-size: 20px;	
+	}
+
+
+	.caption-style-1 li{
+		
+		
+		position: relative;
+		overflow: hidden;
+	}
+
+	.caption-style-1 li:hover .caption{
+		opacity: 1;
+
+	}
+
+	.caption-style-1 li{
+		border: 0.5px solid;
+  		border-radius: 12px;
+  		border-color: #00c1c1;
+	}
+
+	.caption-style-1 img{
+		
+		float: left;
+		z-index: 4;
+	}
+
+
+	.caption-style-1 .caption{
+		cursor: pointer;
+		position: absolute;
+		opacity: 0;
+		-webkit-transition:all 0.45s ease-in-out;
+		-moz-transition:all 0.45s ease-in-out;
+		-o-transition:all 0.45s ease-in-out;
+		-ms-transition:all 0.45s ease-in-out;
+		transition:all 0.45s ease-in-out;
+
+	}
+	.caption-style-1 .blur{
+		background-color: #ffffff;
+		height: 250px;
+		width: 250px;
+		z-index: 5;
+		position: absolute;
+
+	}
+
+	.caption-style-1 .caption-text h1{
+		text-transform: uppercase;
+		font-size: 24px;
+	}
+	.caption-style-1 .caption-text{
+		z-index: 10;
+		color: #00c1c1;
+		position: absolute;
+		width: 250px;
+		height: 250px;
+		text-align: center;
+		top:100px;
+		font-size: 20px;	
+	}
+
+	
+</style>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle nav</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <!-- Logo text or image -->
+        <a class="navbar-brand heading visible-xs " href="index.html" ></a> <!-- this one will be visible on mobile -->
+         <a class="navbar-brand heading hidden-xs" href="index.html" >Ohm Shree Corporation  </a> 
+ <!-- this one will be visible on everything else -->
+
+
+
+      </div>
+      <div class="navigation collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li class="current"><a href="#intro">Home</a></li>
+          <li><a href="#about">About</a></li>
+          
+          <li><a href="#portfolio">Product</a></li>
+          
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- intro area -->
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <div class="carousel-inner" role="listbox">
+        	 <!-- Slide 5 -->
+          <div class="item active">
+            <div class="carousel-background"><img src="img/intro/image5.png" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animated fadeInDown">Ohm Shree Corporation</span></h2>
+                <h6 class="animated fadeInUp"></h6>
+                <a href="#about" class="btn-get-started animated fadeInUp">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 1 -->
+          <div class="item ">
+            <div class="carousel-background"><img src="img/intro/image1.png" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animated fadeInDown">Ohm Shree Corporation</h2>
+                <p class="animated fadeInUp">Double Roller Cottan Ginning Spare Parts Suppliers</p>
+                <a href="#about" class="btn-get-started animated fadeInUp">Read More</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Slide 2 -->
+          <div class="item">
+            <div class="carousel-background"><img src="img/intro/image2.png" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animated fadeInDown">Ohm Shree Corporation</span></h2>
+                <p class="animated fadeInUp">Since 1967</p>
+                <a href="#about" class="btn-get-started animated fadeInUp">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="item">
+            <div class="carousel-background"><img src="img/intro/image3.png" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animated fadeInDown">Ohm Shree Corporation</span></h2>
+                <p class="animated fadeInUp">High quality and vigorously tested parts</p>
+                <a href="#about" class="btn-get-started animated fadeInUp">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="item">
+            <div class="carousel-background"><img src="img/intro/image4.png" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animated fadeInDown">Ohm Shree Corporation</span></h2>
+                <p class="animated fadeInUp">In India and abroad, working with and supplying parts to various ginning industries</p>
+                <a href="#about" class="btn-get-started animated fadeInUp">Read More</a>
+              </div>
+            </div>
+          </div>
+
+
+          
+
+        </div>
+
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon fa fa-angle-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon fa fa-angle-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- #intro -->
+
+  <!-- About -->
+  <section id="about" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>About us</h2>
+            <div class="heading-line"></div>
+          </div> 
+        </div>
+      </div>
+     
+        <div class=" content">
+          <p> Om Shree Corporation is the registered and established company operating since 1967, dealing in various parts and accessories for the Cotton Ginning Industry. Our office and Warehouse are situated In Nadiad, Gujarat India.
+ 
+			We are specialized in spare parts for Double Roller Ginning Machines. we are Dealing, Supplying and Exporting all parts of Double Roller Gin manufactured machines. We have high quality and vigorously tested parts made of optimum quality of raw materials. 
+ 
+			 We supply a wide range of Cotton Ginning Machinery Spare Parts, Double Roller Ginning Machine Spare Parts, Ginning Machine Oil Seal, Cotton Hydraulic Press Parts and Ginning Machine Gear Box products, All type of ball bearing in the market. Complete Pre Cleaner and parts, Auto Feeder & Parts, Super Lint Cleaner Parts.
+			 
+			 In India and abroad, we have been working with and supplying various ginning industries. The supplied parts and accessories are of high quality to customer satisfaction.
+			 </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+
+
+  <!-- Works -->
+  <section id="portfolio" class="home-section bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Products</h2>
+            <div class="heading-line"></div>
+            <p> We have a wide range of Cotton Ginning Machinery Spare Parts since 1967 </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+
+          <ul id="og-grid" class="og-grid caption-style-1">
+            <li >
+              
+                <img src="img/works/image1.png" alt="Fix Kinfe, Moving Knife, Back Knife, Jali"  />
+                <div class="caption">
+					<div class="blur"></div>
+					<div class="caption-text">
+						
+						<p>Fix Kinfe, Moving Knife, Back Knife, Jali</p>
+					</div>
+				</div>
+                
+       
+    
+              
+            </li>
+            <li>
+              
+                <img src="img/works/image2.png" alt="Gear Set"  />
+                <div class="caption">
+					<div class="blur"></div>
+					<div class="caption-text">
+						
+						<p>Gear Set</p>
+					</div>
+				</div>
+            </li>
+            <li>
+              <img src="img/works/image3.png" alt="Connecting Road, Beateraram"  />
+              <div class="caption">
+					<div class="blur"></div>
+					<div class="caption-text">
+						
+						<p>Connecting Road, Beateraram</p>
+					</div>
+				</div>
+            </li>
+            <li>
+            <img src="img/works/image4.png" alt="Hub, Roller Flange"  />
+            <div class="caption">
+					<div class="blur"></div>
+					<div class="caption-text">
+						
+						<p>Hub, Roller Flange</p>
+					</div>
+				</div>
+            </li>
+            <li>
+             <img src="img/works/image5.png" alt="Eccentric Shaft"  />
+             <div class="caption">
+					<div class="blur"></div>
+					<div class="caption-text">
+						
+						<p>Eccentric Shaft</p>
+					</div>
+				</div>
+            </li>
+            <li>
+              <img src="img/works/image6.png" alt="Clatch"  />
+              <div class="caption">
+					<div class="blur"></div>
+					<div class="caption-text">
+						
+						<p>Clatch</p>
+					</div>
+				</div>
+              
+            </li>
+            <li>
+               <img src="img/works/image7.png" alt="Head Pin, Gear Pin" />
+               <div class="caption">
+					<div class="blur"></div>
+					<div class="caption-text">
+						
+						<p>Head Pin, Gear Pin</p>
+					</div>
+				</div>
+            </li>
+            <li>
+               <img src="img/works/image8.png" alt="Bale Tie"  />
+               <div class="caption">
+					<div class="blur"></div>
+					<div class="caption-text">
+						
+						<p>Bale Tie</p>
+					</div>
+				</div>
+            </li>
+            <li>
+              <img src="img/works/image9.png" alt="Pet Strap" />
+              <div class="caption">
+					<div class="blur"></div>
+					<div class="caption-text">
+						
+						<p>Pet Strap</p>
+					</div>
+				</div>
+            </li>
+            <li>
+               <img src="img/works/image10.png" alt="Bearing"/>
+               <div class="caption">
+					<div class="blur"></div>
+					<div class="caption-text">
+						
+						<p>Bearing</p>
+					</div>
+				</div>
+            </li>
+            <li>
+              <img src="img/works/image11.png" alt="Chrome Washer" />
+              <div class="caption">
+					<div class="blur"></div>
+					<div class="caption-text">
+						
+						<p>Chrome Washer</p>
+					</div>
+				</div>
+            </li>
+            <li>
+               <img src="img/works/image12.png" alt="End Washer"  />
+               <div class="caption">
+					<div class="blur"></div>
+					<div class="caption-text">
+						
+						<p>End Washer</p>
+					</div>
+				</div>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+   
+  <!-- Contact -->
+  <section id="contact" class="home-section bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Contact us</h2>
+            <div class="heading-line"></div>
+             </div>
+        </div>
+      </div>
+
+      <div class="row">
+        
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.0915613573093!2d72.86758101450086!3d22.687635185123675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e5b1951bb9923%3A0xb6de6790c1ae63c7!2sShrinagar%20Society!5e0!3m2!1sen!2sin!4v1577344864270!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0; padding-bottom: 50px" allowfullscreen=""></iframe>
+        
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="contact-widget wow bounceInLeft">
+            <i class="fa fa-building  fa-4x"></i>
+            
+            <h5>Office</h5>
+            <p>
+              9,Shrinager Society,<br>
+Nanakumnath Road,<br>
+Nadiad-387001,<br>
+Gujarat, INDIA<br>
+            </p>
+          </div>
+
+        </div>
+
+        <div class="col-md-3">
+          <div class="contact-widget wow bounceInLeft">
+            <i class="fa fa-warehouse fa-4x"></i>
+            
+            <h5>Warehouse</h5>
+            <p>
+              Rabari Vaad<br>
+Nadiad-387001,<br>
+Gujarat, INDIA<br>
+            </p>
+          </div>
+          
+        </div>
+        <div class="col-md-3">
+          <div class="contact-widget wow bounceInUp">
+            <i class="fa fa-phone fa-4x"></i>
+            <h5>Mobile</h5>
+            <p>
+              +91 9824156706 <br> +91 9409273900
+
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="contact-widget wow bounceInRight">
+            <i class="fa fa-envelope fa-4x"></i>
+            <h5>Email us</h5>
+            <p>
+              ohmshreecor@gmail.com
+            </p>
+          </div>
+     	</div>     
+ 
+    </div>
+</div>
+  </section>
+ <div class="row">
+ 	<br>
+ </div>
+ 
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>Copyright &copy; ohmshreecor. All rights reserved.</p>
+          <div class="credits">
+            Designed by Bhargav dave
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- js -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <script src="js/jquery.nav.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/stellar.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Custom Javascript File -->
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>
