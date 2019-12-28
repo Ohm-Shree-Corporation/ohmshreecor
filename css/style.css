@@ -943,3 +943,11 @@ a.heading{
 		top:100px;
 		font-size: 20px;	
 	}
+
+	.style_logo{
+/*	text-align: left;
+*/	padding: 0px;
+	margin: 0px;
+	font-size: 10px;
+  line-height: 0.8;
+  }
