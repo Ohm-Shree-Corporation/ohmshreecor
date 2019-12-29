@@ -20,7 +20,7 @@ General
 body{
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.6em;
 }
 
@@ -331,7 +331,7 @@ Intro
 }
 
 #intro h2 {
-  color: #fff;
+  color: #fff;;
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
@@ -349,8 +349,9 @@ Intro
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
-  
-  color: #fff;
+     font-weight: 700;
+
+  color: #fff;;
 }
 
 @media (max-width: 768px ) {
@@ -359,6 +360,11 @@ Intro
   }
 }
 
+@media (max-width: 768px ) {
+  #intro h1 {
+    font-size: 36px;
+  }
+}
 #intro .carousel-inner .item {
   transition-property: opacity;
   background-position: center top;
@@ -478,6 +484,7 @@ About
 #about .content p {
   line-height: 26px;
   text-align: left;
+
 }
 
 #about .content p:last-child {
