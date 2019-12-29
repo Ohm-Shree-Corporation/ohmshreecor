@@ -342,12 +342,14 @@ Intro
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
+
 }
 #intro p {
   width: 70%;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
+  
   color: #fff;
 }
 
