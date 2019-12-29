@@ -221,6 +221,11 @@ Home sections
 	text-transform: uppercase;
 }
 
+.section-heading h1 {
+	font-size: 38px;
+	text-transform: uppercase;
+}
+
 .section-heading .heading-line {
 	margin:0 auto;
 	display: block;
@@ -332,6 +337,12 @@ Intro
   font-weight: 700;
 }
 
+#intro h1 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 700;
+}
 #intro p {
   width: 70%;
   -webkit-animation-delay: 0.4s;
