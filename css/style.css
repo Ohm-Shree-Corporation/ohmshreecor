@@ -432,13 +432,14 @@ Intro
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #00c1c1;
+  border: 2px solid #fff; /*#00c1c1;*/
 }
 
 #intro .btn-get-started:hover {
   background: #00c1c1;
   color: #fff;
   text-decoration: none;
+  border: 2px solid #00c1c1;
 }
 
 /* ================================
